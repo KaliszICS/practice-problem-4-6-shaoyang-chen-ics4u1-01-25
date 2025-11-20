@@ -14,6 +14,8 @@ class Database {
 	public Database(Student[] students) {
 		this.students = students; //this is accessible outside of the array since it a reference.
 		//create a copy if you want to keep it seperate
+		//create an array of the same size
+		//use a loop to COPY (use clone) all the students over (not assign)
 	}
 
 	public void addStudent(Student student) {
